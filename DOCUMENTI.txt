@@ -1,0 +1,50 @@
+1_Inizializzo il progetto 
+mkdir my-express-app
+cd my-express-app
+npm init -y -----> package.json
+
+2-Installo le dipendenze---> crea package.lock.json 
+npm install express typescript ts-node @types/node @types/express
+
+3-Configura file: tsconfig.json
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true
+  }
+}
+
+4_Crea la struttura del tuo progetto:
+mkdir src
+touch src/index.ts
+
+5_ Definisci src/index.ts
+import express , { Request, Response } from 'express';
+
+const app = express();
+const port = 3000;
+
+app.get('/', (req : Request , res: Response) => {
+  res.send('Hello, world!');
+});
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
+
+6_assicurati di avere nel package.json per far avviare correttamente App:
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+
+7_avvio app
+npm start
+
+8_ installare MOngodb
+npm install --save-dev @types/mongoose
+
