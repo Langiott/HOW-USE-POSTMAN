@@ -1,6 +1,7 @@
 # HOW-USE-POSTMAN
 Postman è una popolare piattaforma di sviluppo API che consente agli sviluppatori di creare, testare e documentare le API.
-Per utilizzare Postman, segui questi passaggi:
+
+![](Postman_software.png)
 
 Innanzitutto, assicurati di aver installato l'applicazione Postman sul tuo dispositivo. Puoi scaricarla dal sito ufficiale e completare il processo di installazione.
 Dopo aver installato l'applicazione, aprila e verrai accolto dalla sua interfaccia utente.Nella barra di navigazione, puoi creare una nuova richiesta inserendo l'URL dell'API che desideri testare e selezionando il metodo HTTP appropriato, come GET, POST, PUT o DELETE.Una volta configurata la richiesta con eventuali parametri, body o intestazioni personalizzate, puoi inviarla facendo clic sul pulsante "Send".Postman visualizzerà la risposta dell'API, inclusi eventuali dati ricevuti e i codici di stato HTTP corrispondenti.Puoi organizzare le tue richieste in cartelle per una migliore gestione e accesso.Inoltre, puoi esplorare le funzionalità avanzate di Postman, come la gestione delle variabili, i test automatizzati e la documentazione delle API, per ottimizzare il tuo flusso di lavoro di sviluppo e testing.
